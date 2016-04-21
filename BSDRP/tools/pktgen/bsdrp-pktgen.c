@@ -36,7 +36,7 @@ main(int argc, char *argv[])
 	/* res: pointer to a struct */
 	/* res0: a linked list of struct */
 
-	/* Initilazie the hints struct */
+	/* Initialize the hints struct */
 	memset(&hints, 0, sizeof(hints));
 	hints.ai_family = PF_UNSPEC; /* For the moment, We didn't know what kind of family the IP given is */
 	hints.ai_socktype = SOCK_DGRAM; /* It's an UDP packet generator */
